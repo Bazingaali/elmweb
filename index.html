@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>网上订餐系统</title>
+<link href="css/slider.css"
+	rel="stylesheet" type="text/css" />
+<link href="css/common.css"
+	rel="stylesheet" type="text/css" />
+<link href="css/index.css"
+	rel="stylesheet" type="text/css" />
+	<link href="css/product.css"
+		rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	<div class="container header">
+		<div class="span5">
+			<div class="logo">
+				<a href="/onlinerest/index.action"> <img
+					src="images/logo.gif"
+					alt="网上订餐系统" />
+				</a>
+			</div>
+		</div>
+		<div class="span9">
+			<div class="headerAd">
+				<img src="images/header.jpg"
+					width="320" height="50" alt="正品保障" title="正品保障" />
+			</div>
+		</div>
+		
+
+<div class="span10 last">
+	<div class="topNav clearfix">
+		<ul>
+			
+				
+					<li id="headerLogin" class="headerLogin" style="display: list-item;">
+						<a href="/onlinerest/login.action">登录</a>|
+					</li>
+					<li id="headerRegister" class="headerRegister" style="display: list-item;">
+						<a href="/onlinerest/regist.action">注册</a>|</li>
+						<li id="headerLogin" class="headerLogin" style="display: list-item;">
+					<a href="/onlinerest/messageList.action?page=1" style="color: red;">留言板</a>
+				   |</li>
+				
+				
+			
+			
+			<li><a href="/onlinerest/admin.action">后台登录</a></li>
+		</ul>
+	</div>
+	
+	<div class="phone">
+		<form method="post" action="/onlinerest/searchProduct.action" >
+                <input id="condition" name="condition" type="text" value="请输入关键词" onfocus="this.value = '';"
+                onblur="if (this.value == '') {this.value = '请输入关键词';}">
+                <input id="searchSub" type="submit" value="搜">
+        </form>
+	</div>
+</div>
+<div class="span24">
+	<ul class="mainNav">
+		<li><a href="/onlinerest/index.action">首页</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=1&page=1">生鲜水果</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=2&page=1">酒乳饮料</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=3&page=1">休闲零食</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=4&page=1">淮扬菜系</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=5&page=1">麻辣系列</a> |</li>
+		
+		<li><a href="/onlinerest/findCategorySecond.action?cid=6&page=1">东北菜</a> |</li>
+		
+	</ul>
+</div>
+
+	</div>
+	
+	<div class="container productList">
+			<div class="span6">
+				<div class="hotProductCategory">
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=1&page=1">
+									生鲜水果 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=1&page=1">
+										香蕉</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=2&page=1">
+										苹果</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=3&page=1">
+										橙子</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=4&page=1">
+										葡萄</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=20&page=1">
+										草莓</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=21&page=1">
+										西瓜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=22&page=1">
+										柚子</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=23&page=1">
+										蔬菜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=24&page=1">
+										车厘子</a>
+								</dd>
+							
+						</dl>
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=2&page=1">
+									酒乳饮料 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=5&page=1">
+										啤酒</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=6&page=1">
+										白酒</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=7&page=1">
+										碳酸饮料</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=8&page=1">
+										果汁饮料</a>
+								</dd>
+							
+						</dl>
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=3&page=1">
+									休闲零食 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=9&page=1">
+										膨化食品</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=10&page=1">
+										蜜饯果干</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=11&page=1">
+										坚果炒货</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=12&page=1">
+										糖果巧克力</a>
+								</dd>
+							
+						</dl>
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=4&page=1">
+									淮扬菜系 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=13&page=1">
+										扬州菜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=14&page=1">
+										淮扬菜</a>
+								</dd>
+							
+						</dl>
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=5&page=1">
+									麻辣系列 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=15&page=1">
+										川菜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=16&page=1">
+										湘菜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=17&page=1">
+										重庆系列</a>
+								</dd>
+							
+						</dl>
+					
+						<dl>
+							<dt>
+								<a
+									href="/onlinerest/findCategorySecond.action?cid=6&page=1">
+									东北菜 </a>
+							</dt>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=18&page=1">
+										东北炖菜</a>
+								</dd>
+							
+								<dd>
+									<a
+										href="/onlinerest/findCategorySecond1.action?csid=19&page=1">
+										东北炒菜</a>
+								</dd>
+							
+						</dl>
+					
+				</div>
+			</div>
+	
+		<div class="span18 last">
+			<div id="result" class="result table clearfix">
+				<div class="title">
+					<strong>热门商品</strong>
+				</div> 
+				<ul>
+					 
+					 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=23"
+							target="_blank">
+							 <img
+								src="images/20150928093413.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>番茄炒蛋</span> <span class="price">
+										商城价： ￥15.0 </span>
+								</a></li>
+					
+					 
+						
+					 
+					 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=22"
+							target="_blank">
+							 <img
+								src="images/20150928093200.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>青椒干子</span> <span class="price">
+										商城价： ￥12.0 </span>
+								</a></li>
+					
+					 
+						
+					 
+					 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=21"
+							target="_blank">
+							 <img
+								src="images/20150928092710.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>松花皮蛋</span> <span class="price">
+										商城价： ￥16.0 </span>
+								</a></li>
+					
+					 
+						
+					 
+					 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=20"
+							target="_blank">
+							 <img
+								src="images/013.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>车厘子</span> <span class="price">
+										商城价： ￥60.0 </span>
+								</a></li>
+					
+					 
+						
+					
+				</ul>
+			</div>
+		</div>
+		<div class="span18 last">
+			<div id="result" class="result table clearfix">
+				<div class="title">
+					<strong>最新商品</strong> <a target="_blank"></a>
+				</div>
+				<ul>
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=31"
+							target="_blank">
+							 <img
+								src="images/20150928093914.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>酸汤肥牛</span> <span class="price">
+										商城价： ￥40.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=30"
+							target="_blank">
+							 <img
+								src="images/20150928092910.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>芙蓉蔬菜汤</span> <span class="price">
+										商城价： ￥9.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=29"
+							target="_blank">
+							 <img
+								src="images/20150928094134.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>西红柿蛋汤</span> <span class="price">
+										商城价： ￥18.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=28"
+							target="_blank">
+							 <img
+								src="images/20150928092539.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>青椒土豆丝</span> <span class="price">
+										商城价： ￥8.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=27"
+							target="_blank">
+							 <img
+								src="images/big_02.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>麻婆豆腐</span> <span class="price">
+										商城价： ￥12.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=26"
+							target="_blank">
+							 <img
+								src="images/big_06.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>阳澄湖大闸蟹</span> <span class="price">
+										商城价： ￥128.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=25"
+							target="_blank">
+							 <img
+								src="images/djyt.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>剁椒鱼头</span> <span class="price">
+										商城价： ￥50.0 </span>
+								</a></li>
+					
+					 
+					 
+						 
+					
+						 <li><a
+							href="/onlinerest/productFindByPid.action?pid=24"
+							target="_blank">
+							 <img
+								src="images/big_05.jpg"
+								width="170" height="170" style="display: inline-block;">
+								<span
+									style='color: green'>红烧排骨</span> <span class="price">
+										商城价： ￥38.0 </span>
+								</a></li>
+					
+					 
+					
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="container footer">
+		<div class="span24">
+			<div class="footerAd">
+				<img src="/onlinerest/image/footer.jpg"
+					width="950" height="52" alt="我们的优势" title="我们的优势">
+			</div>
+		</div>
+		<div class="span24">
+			<ul class="bottomNav">
+				<li><hr></hr></li>
+			</ul>
+		</div>
+		<div class="span24">
+			<div class="copyright">Copyright © 网上商城 版权所有</div>
+		</div>
+	</div>
+</body>
+</html>
